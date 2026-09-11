@@ -2,9 +2,13 @@ function Hero() {
   return (
     <section className="relative h-screen overflow-hidden bg-black">
       <div className="absolute top-18 bottom-0 right-0 left-0 z-0">
-        <img src={`${import.meta.env.BASE_URL}img/hero.jpg`} alt="Hero Image" className="w-full h-full object-cover object-top opacity-90"></img>
+        <img
+          src={`${import.meta.env.BASE_URL}img/hero.jpg`}
+          alt="Hero Image"
+          className="w-full h-full object-cover object-top opacity-90"
+        ></img>
         <div className="absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/80"></div>
-        </div>
+      </div>
 
       <div className="absolute bottom-8 left-1/2 z-10 animate-bounce">
         <svg
